@@ -13,9 +13,7 @@ int main()
             int x = i, y = j;
             if (x >= n) x = 2*(n-1) - i;
             if (y >= n) y = 2*(n-1) - j;
-            int min = x;
-            if (y < x) min = y;
-            cout << n - min << " ";
+            cout << n - min(x,y) << " ";
         }
         cout << endl;
     }
