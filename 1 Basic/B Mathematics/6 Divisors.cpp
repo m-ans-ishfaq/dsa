@@ -7,7 +7,7 @@ set<int> get_divisors(int n)
 {
     set<int> divisors;
     int sqrtv = sqrt(n);
-    for (int i = 1; i < sqrtv; i++)
+    for (int i = 1; i <= sqrtv; i++)
     {
       if (n % i == 0) divisors.insert(i);
       int d = n / i;
