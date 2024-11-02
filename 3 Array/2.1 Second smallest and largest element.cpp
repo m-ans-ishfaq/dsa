@@ -20,24 +20,20 @@ int main()
     {
       if (arr[i] < min)
       {
-        cout << i << ": Min\n";
         sMin = min;
         min = arr[i];
       }
       else if (arr[i] < sMin && arr[i] != min)
       {
-        cout << i << ": sMin\n";
         sMin = arr[i];
       }
       if (arr[i] > max)
       {
-        cout << i << ": Max\n";
         sMax = max;
         max = arr[i];
       }
       else if (arr[i] > sMax && arr[i] != max)
       {
-        cout << i << ": sMax\n";
         sMax = arr[i];
       }
     }
