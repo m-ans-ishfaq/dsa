@@ -1,4 +1,4 @@
-class Vector:
+class List:
   def __init__(self):
     self.capacity = 1
     self.length = 0
@@ -22,7 +22,7 @@ class Vector:
       if x != None:
         print(x)
 
-v = Vector()
+v = List()
 v.push(1)
 v.push(2)
 v.push(5)
