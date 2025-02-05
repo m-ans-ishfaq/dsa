@@ -14,7 +14,6 @@ int longestSubarray(int arr[], int n, int k)
       j++;
     }
     int l = (j - i);
-    cout << "Count: " << count << endl;
     if (count == k && l > max)
       max = l;
     else
